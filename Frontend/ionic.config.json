@@ -1,0 +1,7 @@
+{
+  "name": "projetoCineTrackF",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "react-vite"
+}

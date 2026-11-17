@@ -1,0 +1,133 @@
+.listas-content {
+  --background: #0f0f1a;
+  --color: #ffffff;
+}
+
+.listas-header {
+  padding: 20px 16px 12px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.listas-header h1 {
+  margin: 0;
+  font-size: 28px;
+  font-weight: 800;
+  background: linear-gradient(90deg, #ffd700, #ff8f00);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+}
+
+.listas-add-btn {
+  --background: linear-gradient(90deg, #ffd700, #ff8f00);
+  --color: #0f0f1a;
+  --border-radius: 12px;
+  height: 40px;
+  font-weight: 700;
+}
+
+.listas-list {
+  padding: 8px 16px 32px;
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+.lista-card {
+  background: #1a1a2e;
+  border: 1px solid #2a2a4a;
+  border-radius: 14px;
+  padding: 16px;
+  cursor: pointer;
+  transition: border-color 0.15s;
+  position: relative;
+}
+
+.lista-card:active {
+  border-color: #ffd700;
+}
+
+.lista-card-nome {
+  font-size: 15px;
+  font-weight: 700;
+  color: #ffffff;
+  margin-bottom: 4px;
+  padding-right: 28px;
+}
+
+.lista-card-desc {
+  font-size: 12px;
+  color: #8a8aa0;
+  margin: 0 0 10px;
+  display: -webkit-box;
+  -webkit-line-clamp: 2;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+}
+
+.lista-card-meta {
+  display: flex;
+  gap: 8px;
+  align-items: center;
+  font-size: 11px;
+}
+
+.lista-tipo-badge {
+  padding: 3px 8px;
+  border-radius: 8px;
+  background: rgba(255, 215, 0, 0.12);
+  color: #ffd700;
+  font-weight: 700;
+}
+
+.lista-tipo-badge.custom {
+  background: rgba(138, 138, 160, 0.15);
+  color: #b0b0c0;
+}
+
+.lista-publica-badge {
+  padding: 3px 8px;
+  border-radius: 8px;
+  background: rgba(74, 222, 128, 0.15);
+  color: #4ade80;
+  font-weight: 700;
+}
+
+.lista-delete-btn {
+  position: absolute;
+  top: 12px;
+  right: 12px;
+  font-size: 18px;
+  color: #ff5555;
+  cursor: pointer;
+  padding: 4px;
+}
+
+.listas-empty {
+  text-align: center;
+  padding: 64px 24px;
+  color: #b0b0c0;
+}
+
+.listas-empty-icon {
+  font-size: 48px;
+  margin-bottom: 12px;
+}
+
+.listas-modal {
+  --background: #0f0f1a;
+}
+
+.listas-modal-content {
+  --background: #0f0f1a;
+  --color: #ffffff;
+}
+
+.listas-form {
+  padding: 20px 16px;
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}

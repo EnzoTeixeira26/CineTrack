@@ -1,0 +1,6 @@
+.tabs-bar {
+  --background: #1a1a2e;
+  --color: #8a8aa0;
+  --color-selected: #ffd700;
+  border-top: 1px solid #2a2a4a;
+}

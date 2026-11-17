@@ -1,0 +1,249 @@
+.landing-content {
+  --background: #0f0f1a;
+  --color: #ffffff;
+  --padding-start: 0;
+  --padding-end: 0;
+  --padding-top: 0;
+  --padding-bottom: 0;
+}
+
+.landing-wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 40px 20px 0;
+  min-height: 100%;
+  max-width: 480px;
+  margin: 0 auto;
+  box-sizing: border-box;
+}
+
+.landing-hero {
+  text-align: center;
+  margin-bottom: 28px;
+}
+
+.landing-logo {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 12px;
+  margin-bottom: 12px;
+}
+
+.landing-logo-icon {
+  font-size: 40px;
+}
+
+.landing-title {
+  font-size: 40px;
+  font-weight: 800;
+  margin: 0;
+  background: linear-gradient(90deg, #ffd700, #ff8f00);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+}
+
+.landing-subtitle {
+  font-size: 18px;
+  color: #ffd700; 
+  font-weight: 600;
+  margin: 8px 0;
+}
+
+.landing-description {
+  font-size: 14px;
+  color: #b0b0c0;
+  line-height: 1.6;
+  margin: 12px 0 0;
+}
+
+/* Auth */
+.landing-auth {
+  width: 100%;
+  background: #1a1a2e;
+  border-radius: 20px;
+  padding: 28px 22px;
+  border: 1px solid #2a2a4a;
+  margin-bottom: 40px;
+}
+
+.landing-auth-title {
+  font-size: 18px;
+  font-weight: 700;
+  text-align: center;
+  margin: 0 0 20px;
+  color: #ffffff;
+}
+
+.landing-btn-email {
+  --background: linear-gradient(90deg, #ffd700, #ff8f00);
+  --color: #0f0f1a;
+  --border-radius: 12px;
+  --box-shadow: none;
+  font-weight: 700;
+  height: 48px;
+  text-transform: none;
+  margin-bottom: 20px;
+}
+
+.landing-divider {
+  display: flex;
+  align-items: center;
+  text-align: center;
+  color: #6a6a8a;
+  font-size: 12px;
+  margin: 16px 0;
+}
+
+.landing-divider::before,
+.landing-divider::after {
+  content: '';
+  flex: 1;
+  border-bottom: 1px solid #2a2a4a;
+}
+
+.landing-divider span {
+  padding: 0 12px;
+}
+
+.landing-btn-social {
+  --border-color: #3a3a5a;
+  --color: #ffffff;
+  --border-radius: 12px;
+  --border-width: 1px;
+  font-weight: 500;
+  height: 48px;
+  text-transform: none;
+  margin-bottom: 12px;
+}
+
+.landing-register-text {
+  text-align: center;
+  font-size: 13px;
+  color: #b0b0c0;
+  margin-top: 16px;
+  margin-bottom: 0;
+}
+
+.landing-link {
+  color: #ffd700;
+  font-weight: 600;
+  text-decoration: none;
+  margin-bottom: 2vh;
+}
+
+.landing-link:hover {
+  text-decoration: underline;
+}
+
+.landing-features {
+  width: 100%;
+  margin-bottom: 40px;
+}
+
+.landing-features-title {
+  font-size: 18px;
+  font-weight: 700;
+  text-align: center;
+  margin: 0 0 24px;
+  color: #ffffff;
+}
+
+.landing-features-list {
+  display: flex;
+  flex-direction: column;
+  gap: 18px;
+}
+
+.landing-feature-row {
+  display: flex;
+  align-items: flex-start;
+  gap: 16px;
+  padding: 16px;
+  background: #1a1a2e;
+  border: 1px solid #2a2a4a;
+  border-radius: 16px;
+  transition: transform 0.2s ease, border-color 0.2s ease;
+}
+
+.landing-feature-row:hover {
+  transform: translateY(-2px);
+  border-color: #ffd700;
+}
+
+.landing-feature-icon-wrap {
+  flex: 0 0 auto;
+  width: 44px;
+  height: 44px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: rgba(255, 215, 0, 0.1);
+  border-radius: 12px;
+}
+
+.landing-feature-icon {
+  font-size: 24px;
+  color: #ffd700;
+}
+
+.landing-feature-info {
+  flex: 1;
+}
+
+.landing-feature-info h4 {
+  font-size: 15px;
+  font-weight: 700;
+  margin: 0 0 6px;
+  color: #ffffff;
+}
+
+.landing-feature-info p {
+  font-size: 13px;
+  color: #b0b0c0;
+  line-height: 1.5;
+  margin: 0;
+}
+
+.landing-footer {
+  position: relative;
+  width: 100vw;
+  margin-top: auto;
+  overflow: hidden;
+}
+
+.landing-footer-gradient {
+  position: absolute;
+  inset: 0;
+  background: linear-gradient(
+    to top,
+    rgba(255, 215, 0, 0.25) 0%,
+    rgba(255, 143, 0, 0.12) 35%,
+    rgba(15, 15, 26, 0) 100%
+  );
+  pointer-events: none;
+}
+
+.landing-footer-content {
+  position: relative;
+  padding: 20px 20px 24px;
+  text-align: center;
+  border-top: 1px solid rgba(255, 215, 0, 0.3);
+}
+
+.landing-footer-title {
+  font-size: 13px;
+  font-weight: 700;
+  color: #ffd700;
+  margin: 0 0 6px;
+  letter-spacing: 1px;
+}
+
+.landing-footer-sub {
+  font-size: 12px;
+  color: #b0b0c0;
+  font-style: italic;
+  margin: 0;
+}

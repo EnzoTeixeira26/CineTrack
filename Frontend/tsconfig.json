@@ -1,0 +1,22 @@
+{
+  "compilerOptions": {
+    "target": "ESNext",
+    "useDefineForClassFields": true,
+    "lib": ["DOM", "DOM.Iterable", "ESNext"],
+    "allowJs": false,
+    "skipLibCheck": true,
+    "esModuleInterop": true,
+    "allowSyntheticDefaultImports": true,
+    "strict": null, // NÃO FACAM ISSO SE NAO TIVEREM CERTEZA DO QUE ESTAO FAZENDO MANTENHA O VALOR COMO 'TRUE'
+    "forceConsistentCasingInFileNames": true,
+    "module": "ESNext",
+    "moduleResolution": "bundler",
+    "types": ["jest"], //importante add por causa das funcoes globais do jest tipo test e expect q me deu um trabalho e perdi 30 minutos da minha vida pesquisando na documentacao 
+    "resolveJsonModule": true,
+    "isolatedModules": true,
+    "noEmit": true,
+    "jsx": "react-jsx"
+  },
+  "include": ["src"],
+  "references": [{ "path": "./tsconfig.node.json" }]
+}
